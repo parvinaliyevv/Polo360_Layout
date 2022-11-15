@@ -1,0 +1,251 @@
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+header {
+    height: 138px;
+    background: linear-gradient(#e8e8e8, #fff, #fff, #fff);
+    padding: 36px 15px 25px 15px;
+}
+
+#menu {
+    float: right;
+    padding: 23px 0 0 0;
+}
+
+#menu li {
+    display: inline-block;
+    font: .7em Tahoma;
+    color: #b7b7b7;
+    border-left: 1px dotted #d6d6d6;
+    padding: 0 10px 6px 10px;
+}
+
+#menu a {
+    font: bold 0.9rem Georgia;
+    display: block;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+main {
+    min-height: 1200px;
+    padding: 23px 0 23px 0;
+    background: #fff url('../images/mainbg.jpg') repeat-x;
+}
+
+#slider {
+    height: 340px;
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    background: url("../images/slider.jpg") center;
+    box-shadow: 2px 2px 10px #909090;
+}
+
+h1 {
+    color: #000000;
+    font: bold 1.5em Georgia;
+    text-align: center;
+    margin: 22px 0;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 1px 1px 3px #e0e7ea;
+    width: 98%
+}
+
+.row::after {
+    content: none;
+    clear: right;
+    display: table;
+}
+
+.row {
+    overflow: auto;
+}
+
+.col-item,
+.col {
+    float: left;
+    width: 33.33%;
+}
+
+.col-item {
+    padding: 36px 0 30px 6px;
+}
+
+.col {
+    padding: 30px 0 0 6px;
+}
+
+.col-item h2 {
+    font: 1.3em Georgia;
+    letter-spacing: 1px;
+    color: #11719e;
+    margin-left: 5px;
+}
+
+.col-item h6 {
+    font: .75em Helvetica;
+    color: #8c8c8c;
+    margin-left: 5px;
+}
+
+.col-item img {
+    padding: 7px;
+    background-color: #f3f3f3;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px #dbdbdb;
+    margin: 18px 0;
+}
+
+.col-item p {
+    font: 0.8em Helvetica;
+    letter-spacing: 1px;
+    line-height: 18px;
+    margin-left: 5px;
+    color: #3e3e3e;
+    text-align: initial;
+}
+
+.col-item button {
+    font: 0.75em Helvetica;
+    cursor: pointer;
+    color: #016999;
+    background: linear-gradient(to right, #e8e8e8, #f5f5f5, #f5f5f5, #e8e8e8, #e8e8e8);
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px #dbdbdb;
+    padding: 5px 10px;
+    margin: 23px 0 0 5px;
+}
+
+.col-item button span {
+    font-size: medium;
+    margin-left: 30px;
+}
+
+.col h2 {
+    font: 1.1em Georgia;
+    color: #444444;
+}
+
+.col hr {
+    border: none;
+    width: 97%;
+    border: 1px dashed #d3d3d3;
+}
+
+.col p {
+    font: 0.75em Helvetica;
+    line-height: 14px;
+    color: #444444;
+}
+
+.col img {
+    margin: 5px 0 0 0;
+}
+
+.col input,
+.col textarea {
+    width: 296px;
+    height: 33px;
+    border-radius: 4px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border: 1px solid #cfcfcf;
+    outline: none;
+}
+
+.col input::placeholder,
+.col textarea::placeholder {
+    text-indent: 10px;
+    color: #d4d4d4;
+}
+
+.col input:focus::placeholder,
+.col textarea:focus::placeholder {
+    color: transparent;
+}
+
+.col input:focus {
+    border: 2px solid #4b82bd;
+}
+
+.col button {
+    font: 0.8em Georgia;
+    color: #ffffff;
+    background: linear-gradient(to right, #457cb2, #5187c3, #4c83bd, #4276aa, #416d9a);
+    border-radius: 4px;
+    height: 35px;
+    border: 1px solid #004a80;
+    width: 140px;
+    text-align: left;
+    text-indent: 10px;
+    cursor: pointer;
+    box-shadow: inset 0.5px 0.866px 0.5px rgba(1, 80, 113, 0.05);
+}
+
+.col button span {
+    float: right;
+    margin-right: 5px;
+}
+
+.col textarea {
+    height: 120px;
+    resize: none;
+}
+
+.new-item img {
+    padding: 4px;
+    background-color: #f3f3f3;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.new-item p {
+    margin: 7px 0 0 70px;
+}
+
+.new-item hr {
+    display: inline-block;
+}
+
+footer {
+    height: 175px;
+    background-color: #333333;
+}
+
+#footer-up-color {
+    background-color: #4c4c4c;
+    height: 12px;
+    margin-bottom: 15px;
+}
+
+footer p,
+footer a {
+    font: 0.9em Helvetica;
+    color: #999999;
+}
+
+footer p,
+footer ul {
+    margin: 5px 0;
+}
+
+footer li,
+footer a {
+    text-decoration: none;
+    display: inline;
+}
+
+footer li:not(:last-child) {
+    padding-right: 3px;
+    border-right: 2px solid #4e4e4e;
+}
